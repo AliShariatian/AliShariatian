@@ -7,8 +7,8 @@
 💬 Ask me about
 
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://b2n.ir/shariatian)
+## 🌐 Links:
+[![Website](https://img.shields.io/badge/Website-Shariatian.ir-green)](https://b2n.ir/shariatian)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/AliShariatian) 
 
 # 💻 Tech Stack:
