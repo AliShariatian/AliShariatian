@@ -19,3 +19,13 @@
 
 ### 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=AliShariatian&limit=5&theme=dark&combine_all_yearly_contributions=true)
+
+---
+[![](https://visitcount.itsvg.in/api?id=alishariatian&icon=0&color=0)](https://visitcount.itsvg.in)
+
+## 💰 You can help me by Donating
+[![BuyMeACoffee](<img src="http://www.coffeete.ir/images/buttons/lemonchiffon.png" style="width:260px;" />)](http://www.coffeete.ir/AliShariatian)
+
+<a href="http://www.coffeete.ir/AliShariatian">
+       <img src="http://www.coffeete.ir/images/buttons/lemonchiffon.png" style="width:260px;" />
+</a>
