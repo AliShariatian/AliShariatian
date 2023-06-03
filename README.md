@@ -8,7 +8,7 @@
 
 
 ## 🌐 Links:
-[![Website](https://img.shields.io/badge/Website-Shariatian.ir-2b9348)](https://Shariatian.ir)
+[![Website](https://img.shields.io/badge/Website-Shariatian.ir-38b000)](https://Shariatian.ir)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/AliShariatian) 
 [![Instagram](https://img.shields.io/badge/Instagram-d62976)](https://instagram.com/Shariatian.Data)
 
