@@ -4,11 +4,11 @@
 📉 I love analysis<br>
 🌱 I'm constantly learning<br>
 🤝 I'm looking to collaborate on<br>
-💬 Ask me about
+💬 Ask me about Data
 
 
 ## 🌐 Links:
-[![Website](https://img.shields.io/badge/Website-Shariatian.ir-green)](https://b2n.ir/shariatian)
+[![Website](https://img.shields.io/badge/Website-Shariatian.ir-green)](https://Shariatian.ir)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/AliShariatian) 
 
 # 💻 Tech Stack:
