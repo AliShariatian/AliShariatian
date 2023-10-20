@@ -73,9 +73,17 @@ main {
     margin-right: 20px;
 }
 
+
 .svg {
     filter: invert(1);
     width: 40px;
+    animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
 }
 
 /* Footer */
@@ -91,6 +99,20 @@ footer {
 
 footer span {
     color: var(--primary-color);
+}
+
+
+.typing {
+    width: 100%;
+    animation: typing 2s;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
 }
 
 
