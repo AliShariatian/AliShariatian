@@ -1,0 +1,113 @@
+:root {
+    --primary-color: #a4e500;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100dvh;
+    background-color: #000;
+    position: relative;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    gap: 50px;
+}
+
+
+.title {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-family: 'inter';
+}
+
+
+
+.title div:nth-child(1),
+.title div:nth-child(1) h1 {
+    display: flex;
+    gap: 5px;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.title div:nth-child(2),
+.title div:nth-child(2) h2 {
+    display: flex;
+    gap: 15px;
+    font-size: 4.5rem;
+    font-weight: 400;
+}
+
+.title div:nth-child(2) h2 span {
+    font-weight: 900;
+}
+
+.title :is(h1, span) {
+    color: var(--primary-color);
+}
+
+.skills {
+    font-family: 'courier new';
+    font-size: 1.2rem;
+
+}
+
+.social a:nth-child(1) {
+    margin-right: 20px;
+}
+
+.svg {
+    filter: invert(1);
+    width: 40px;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 30px;
+    gap: 5px;
+    font-family: 'courier new';
+    align-self: center;
+}
+
+footer span {
+    color: var(--primary-color);
+}
+
+
+
+/* Small Devices */
+
+@media only screen and (max-width: 830px) {
+
+    .title div:nth-child(1),
+    .title div:nth-child(1) h1 {
+        gap: 4px;
+        font-size: 1.2rem;
+    }
+
+    .title div:nth-child(2),
+    .title div:nth-child(2) h2 {
+        gap: 5px;
+        font-size: 1.8rem;
+    }
+}
