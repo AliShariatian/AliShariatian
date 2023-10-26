@@ -1,7 +1,7 @@
-# I'm AliShariatian 👨‍💻
+# I'm Ali Shariatian 🙋‍♂️
 
 ## 💫 About Me:
-🔭 I’m currently working on self project<br>👯 I’m looking to collaborate on Front-end<br>🌱 I’m currently learning JavaScript<br>💬 Ask me about Web and Front-end
+🔭 I’m currently working on self project<br>👯 I’m looking to collaborate on Front-end<br>🌱 I’m currently learning TypeScript<br>💬 Ask me about Web and Front-end
 
 
 ## 🌐 Socials:
