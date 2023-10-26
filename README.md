@@ -1,4 +1,4 @@
-# I'm Ali Shariatian 🙋‍♂️
+# I'm Ali 🙋‍♂️
 
 ## 💫 About Me:
 🔭 I’m currently working on self project<br>👯 I’m looking to collaborate on Front-end<br>🌱 I’m currently learning TypeScript<br>💬 Ask me about Web and Front-end
