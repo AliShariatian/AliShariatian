@@ -1,5 +1,6 @@
 :root {
     --primary-color: #a4e500;
+    --body-bg-color: #030712;
 }
 
 * {
@@ -8,14 +9,18 @@
     box-sizing: border-box;
     text-decoration: none;
     color: white;
+    cursor: url("../img/cursor.svg") 15 15, pointer;
 }
 
 body {
     display: flex;
     flex-direction: column;
     height: 100dvh;
-    background-color: #000;
+    background-color: var(--body-bg-color);
     position: relative;
+}
+:is(a, a img):hover {
+    cursor: url("../img/cursor-hover.svg") 15 15, auto;
 }
 
 main {
@@ -25,6 +30,7 @@ main {
     justify-content: center;
     height: 80%;
     gap: 50px;
+    z-index: 1;
 }
 
 .title {
@@ -60,7 +66,7 @@ main {
 
 .text-animation {
     color: var(--primary-color);
-    background-image: linear-gradient(92deg, var(--primary-color), #00ff73);
+    background-image: linear-gradient(95deg, var(--primary-color), #00ff99);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: hue 5s infinite linear;
@@ -69,11 +75,17 @@ main {
 }
 
 @keyframes hue {
-    from {
-        -webkit-filter: hue-rotate(0deg);
+    0% {
+        -webkit-filter: hue-rotate(95deg);
     }
-    to {
-        -webkit-filter: hue-rotate(-360deg);
+    25% {
+        -webkit-filter: hue-rotate(360deg);
+    }
+    75% {
+        -webkit-filter: hue-rotate(360deg);
+    }
+    100% {
+        -webkit-filter: hue-rotate(95deg);
     }
 }
 
