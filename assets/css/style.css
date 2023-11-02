@@ -9,7 +9,6 @@
     box-sizing: border-box;
     text-decoration: none;
     color: white;
-    cursor: url("../img/cursor.svg") 15 15, pointer;
 }
 
 body {
@@ -18,9 +17,6 @@ body {
     height: 100dvh;
     background-color: var(--body-bg-color);
     position: relative;
-}
-:is(a, a img):hover {
-    cursor: url("../img/cursor-hover.svg") 15 15, auto;
 }
 
 main {
@@ -93,18 +89,9 @@ main {
     font-size: smaller;
 }
 
-.skills {
-    font-family: "courier new";
-    font-size: 1.4rem;
-}
-
-.social a:nth-child(2) {
-    margin: 0 20px;
-}
-
 .svg {
-    filter: invert(1);
     width: 40px;
+    height: 40px;
     transition: scale 0.2s cubic-bezier(1, 0.03, 0, 1.01);
     animation: fadeIn 2s;
 }
@@ -119,22 +106,65 @@ main {
     }
 }
 
+/* Skills */
+.skills {
+    font-family: "courier new";
+    font-size: 1.3rem;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.skills p {
+    margin-left: -99px;
+    margin-bottom: -20px;
+    opacity: 0.8;
+}
+.skills hr {
+    margin: 15px auto;
+    width: 99%;
+    opacity: 0.15;
+}
+.have-skills,
+.loading-skills {
+    display: grid;
+    grid-template-columns: repeat(3, 55px);
+    row-gap: 9px;
+    margin: 0 auto;
+}
+
 /* Footer */
 footer {
     display: flex;
     flex-direction: column;
     position: absolute;
     bottom: 30px;
-    gap: 5px;
+    gap: 35px;
     font-family: "courier new";
     align-self: center;
 }
 
-footer span {
+/* Socials */
+.social {
+    display: flex;
+    justify-content: center;
+}
+.social a:nth-child(2) {
+    margin: 0 20px;
+}
+.social img {
+    filter: invert(1);
+}
+.tell {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.tell span {
     color: var(--primary-color);
 }
 
-footer a:hover {
+.tell a:hover {
     color: var(--primary-color);
 }
 
@@ -158,15 +188,35 @@ footer a:hover {
     .title div:nth-child(1),
     .title div:nth-child(1) h1 {
         gap: 4px;
-        font-size: 1.2rem;
+        font-size: 1rem;
+        font-weight: 400;
     }
 
     .title div:nth-child(2),
     .title div:nth-child(2) h2 {
         gap: 5px;
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
     .skills {
-        font-size: 1.2rem;
+        width: 170px;
+        font-size: 0.9rem;
+    }
+
+    .have-skills,
+    .loading-skills {
+        grid-template-columns: repeat(3, 40px);
+        row-gap: 0;
+    }
+
+    .skills p {
+        margin-left: -60px;
+    }
+
+    .svg {
+        width: 30px;
+    }
+
+    .skills hr {
+        width: 90%;
     }
 }
