@@ -24,9 +24,8 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 80%;
-    gap: 50px;
-    z-index: 1;
+    height: 70%;
+    gap: 40px;
 }
 
 .title {
