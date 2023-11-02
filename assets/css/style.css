@@ -39,7 +39,7 @@ main {
     display: flex;
     gap: 5px;
     font-size: 2rem;
-    font-weight: 400;
+    font-weight: 100;
 }
 
 .title div:nth-child(2),
@@ -58,6 +58,29 @@ main {
     color: var(--primary-color);
 }
 
+.text-animation {
+    color: var(--primary-color);
+    background-image: linear-gradient(92deg, var(--primary-color), #00ff73);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: hue 5s infinite linear;
+    -moz-animation: hue 5s infinite linear;
+    -webkit-animation: hue 5s infinite linear;
+}
+
+@keyframes hue {
+    from {
+        -webkit-filter: hue-rotate(0deg);
+    }
+    to {
+        -webkit-filter: hue-rotate(-360deg);
+    }
+}
+
+.emoji {
+    font-size: smaller;
+}
+
 .skills {
     font-family: "courier new";
     font-size: 1.4rem;
@@ -70,7 +93,12 @@ main {
 .svg {
     filter: invert(1);
     width: 40px;
+    transition: scale 0.2s cubic-bezier(1, 0.03, 0, 1.01);
     animation: fadeIn 2s;
+}
+
+.svg:hover {
+    scale: 1.5;
 }
 
 @keyframes fadeIn {
@@ -94,6 +122,11 @@ footer span {
     color: var(--primary-color);
 }
 
+footer a:hover {
+    color: var(--primary-color);
+}
+
+/* Typing animation */
 .typing {
     width: 100%;
     animation: typing 2s;
