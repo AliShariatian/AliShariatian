@@ -109,14 +109,14 @@ main {
 /* Skills */
 .skills {
     font-family: "courier new";
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     width: 200px;
     display: flex;
     flex-direction: column;
 }
 
 .skills p {
-    margin-left: -99px;
+    margin-left: -120px;
     margin-bottom: -20px;
     opacity: 0.8;
 }
