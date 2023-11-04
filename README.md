@@ -5,7 +5,7 @@
 
 
 ## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/AliShariatian) [![Codepen](https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white)](https://codepen.io/AliShariatian) [![X](https://img.shields.io/badge/x-%230077B5.svg?logo=x&logoColor=white)](https://twitter.com/Ali_Shariatian) 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/AliShariatian) [![Codepen](https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white)](https://codepen.io/AliShariatian) [![X](https://img.shields.io/badge/x-000000.svg?logo=x&logoColor=white)](https://twitter.com/Ali_Shariatian) 
 
 
 # 💻 Skills:
