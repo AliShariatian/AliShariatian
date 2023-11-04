@@ -17,9 +17,9 @@
 
 <h2 align="left">🌐 Socials:</h2>
 <p align="left">
-<a href="https://linkedin.com/in/alishariatian" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="alishariatian" height="30" width="40" /></a>
-<a href="https://twitter.com/ali_shariatian" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="ali_shariatian" height="30" width="40" /></a>
-<a href="https://codepen.io/alishariatian" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="alishariatian" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/alishariatian" target="_blank"><img title="My Linkedin" align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="alishariatian" height="30" width="40" /></a>
+<a href="https://twitter.com/ali_shariatian" target="_blank"><img title="My Twitter" align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="ali_shariatian" height="30" width="40" /></a>
+<a href="https://codepen.io/alishariatian" target="_blank"><img title="My Codepen" align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="alishariatian" height="30" width="40" /></a>
 </p>
 
 <br>
