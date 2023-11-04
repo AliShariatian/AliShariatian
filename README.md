@@ -5,13 +5,13 @@
 
 <h2 align="left">💫 About Me:</h2>
 
-- 🔭 I’m currently working on **self grow**
+- 🔭 I’m currently working on **Self grow**
 
 - 🌱 I’m currently learning **TypeScript**
 
-- 👯 I’m looking to collaborate on **front-end**
+- 👯 I’m looking to collaborate on **Front-end**
 
-- 💬 Ask me about **web and front-end**
+- 💬 Ask me about **Web and Front-end**
 
 <br>
 
