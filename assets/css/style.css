@@ -156,7 +156,7 @@ main {
 
 /* Skills */
 .skills {
-    font-family: "courier new";
+    font-family: 'Courier New', Courier, monospace;
     font-size: 1.2rem;
     width: 200px;
     display: -webkit-box;
@@ -200,7 +200,7 @@ footer {
     position: absolute;
     bottom: 30px;
     gap: 35px;
-    font-family: "courier new";
+    font-family: 'Courier New', Courier, monospace;
     -ms-flex-item-align: center;
     -ms-grid-row-align: center;
     align-self: center;
