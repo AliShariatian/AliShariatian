@@ -7,7 +7,7 @@
     margin: 0;
     padding: 0;
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     text-decoration: none;
     color: white;
 }
@@ -18,8 +18,8 @@ body {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     height: 100dvh;
     background-color: var(--body-bg-color);
     position: relative;
@@ -31,14 +31,14 @@ main {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     height: 70%;
     gap: 40px;
 }
@@ -49,8 +49,8 @@ main {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     gap: 15px;
     font-family: "inter";
 }
@@ -135,7 +135,7 @@ main {
     -o-transition: scale 0.2s cubic-bezier(1, 0.03, 0, 1.01);
     transition: scale 0.2s cubic-bezier(1, 0.03, 0, 1.01);
     -webkit-animation: fadeIn 2s;
-            animation: fadeIn 2s;
+    animation: fadeIn 2s;
 }
 
 .svg:hover {
@@ -164,8 +164,8 @@ main {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
 }
 
 .skills p {
@@ -182,7 +182,7 @@ main {
 .loading-skills {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (55px)[3];
+    -ms-grid-columns: (55px) [3];
     grid-template-columns: repeat(3, 55px);
     row-gap: 9px;
     margin: 0 auto;
@@ -195,15 +195,15 @@ footer {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     position: absolute;
     bottom: 30px;
     gap: 35px;
     font-family: "courier new";
     -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
+    -ms-grid-row-align: center;
+    align-self: center;
 }
 
 /* Socials */
@@ -211,16 +211,16 @@ footer {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-column-gap: 20px;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-}
-.social a:nth-child(2) {
-    margin: 0 20px;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 .social img {
     -webkit-filter: invert(1);
-            filter: invert(1);
+    filter: invert(1);
 }
 .tell {
     display: -webkit-box;
@@ -228,8 +228,8 @@ footer {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     gap: 5px;
 }
 .tell span {
@@ -244,7 +244,7 @@ footer {
 .typing {
     width: 100%;
     -webkit-animation: typing 2s;
-            animation: typing 2s;
+    animation: typing 2s;
     white-space: nowrap;
     overflow: hidden;
 }
@@ -287,7 +287,7 @@ footer {
 
     .have-skills,
     .loading-skills {
-        -ms-grid-columns: (40px)[3];
+        -ms-grid-columns: (40px) [3];
         grid-template-columns: repeat(3, 40px);
         row-gap: 0;
     }
