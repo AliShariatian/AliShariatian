@@ -23,6 +23,17 @@ body {
     height: 100dvh;
     background-color: var(--body-bg-color);
     position: relative;
+    overflow: hidden;
+}
+
+body::after{
+    content: url('../img/abstract-1186.png');
+    position: absolute;
+    right: -80px;
+    bottom: -99px;
+    filter: invert(1);
+    transform: scale(0.5);
+    opacity: 0.1;
 }
 
 main {
@@ -127,6 +138,19 @@ main {
 .emoji {
     font-size: smaller;
 }
+.title{
+    position: relative;
+}
+.title::before {
+    content: url('../img/rocky-zigzag-8.png');
+    position: absolute;
+    left: -99px;
+    top: -70px;
+    width: 10px;
+    height: 10px;
+    filter: invert(1);
+    opacity: 0.1;
+}
 
 .svg {
     width: 40px;
@@ -156,7 +180,7 @@ main {
 
 /* Skills */
 .skills {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
     font-size: 1.2rem;
     width: 200px;
     display: -webkit-box;
@@ -200,7 +224,7 @@ footer {
     position: absolute;
     bottom: 30px;
     gap: 35px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
     -ms-flex-item-align: center;
     -ms-grid-row-align: center;
     align-self: center;
@@ -306,5 +330,11 @@ footer {
 
     .skills hr {
         width: 90%;
+    }
+
+    .title::before {
+        left: -50px;
+        top: -30px;
+        transform: scale(0.4);
     }
 }
