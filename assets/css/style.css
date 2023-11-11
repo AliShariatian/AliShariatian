@@ -356,4 +356,8 @@ footer {
         transform: scale(0.4);
         opacity: 0.2;
     }
+
+    .text-animation:hover {
+        -webkit-text-stroke: 2px transparent;
+    }
 }
