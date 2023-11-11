@@ -7,7 +7,7 @@
 
 - 🔭 I’m currently working on **Self grow**
 
-- 🌱 I’m currently learning **TypeScript**
+- 🌱 I’m currently learning **ReactJS**
 
 - 👯 I’m looking to collaborate on **Front-end**
 
