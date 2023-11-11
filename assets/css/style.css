@@ -100,9 +100,19 @@ main {
     background-image: linear-gradient(95deg, var(--primary-color), #00ff99);
     background-clip: text;
     -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     animation: hue 5s infinite linear;
     -moz-animation: hue 5s infinite linear;
     -webkit-animation: hue 5s infinite linear;
+}
+
+.text-animation:hover {
+    color: var(--body-bg-color);
+    background-clip: text;
+    -webkit-text-fill-color: unset;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-stroke: 3px transparent;
 }
 
 @-webkit-keyframes hue {
@@ -133,14 +143,6 @@ main {
     100% {
         -webkit-filter: hue-rotate(95deg);
     }
-}
-
-.text-animation:hover {
-    color: var(--body-bg-color);
-    background-image: linear-gradient(95deg, var(--primary-color), #00ff99);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-stroke: 3px transparent;
 }
 
 .emoji {
