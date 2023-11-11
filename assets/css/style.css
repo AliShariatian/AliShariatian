@@ -26,8 +26,8 @@ body {
     overflow: hidden;
 }
 
-body::after{
-    content: url('../img/abstract-1186.png');
+body::after {
+    content: url("../img/abstract-1186.png");
     position: absolute;
     right: -80px;
     bottom: -99px;
@@ -98,8 +98,8 @@ main {
     color: var(--primary-color);
     background-image: -o-linear-gradient(355deg, var(--primary-color), #00ff99);
     background-image: linear-gradient(95deg, var(--primary-color), #00ff99);
+    background-clip: text;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     animation: hue 5s infinite linear;
     -moz-animation: hue 5s infinite linear;
     -webkit-animation: hue 5s infinite linear;
@@ -135,14 +135,22 @@ main {
     }
 }
 
+.text-animation:hover {
+    color: var(--body-bg-color);
+    background-image: linear-gradient(95deg, var(--primary-color), #00ff99);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-stroke: 3px transparent;
+}
+
 .emoji {
     font-size: smaller;
 }
-.title{
+.title {
     position: relative;
 }
 .title::before {
-    content: url('../img/rocky-zigzag-8.png');
+    content: url("../img/rocky-zigzag-8.png");
     position: absolute;
     left: -99px;
     top: -70px;
@@ -153,8 +161,8 @@ main {
 }
 
 .svg {
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     -webkit-transition: scale 0.2s cubic-bezier(1, 0.03, 0, 1.01);
     -o-transition: scale 0.2s cubic-bezier(1, 0.03, 0, 1.01);
     transition: scale 0.2s cubic-bezier(1, 0.03, 0, 1.01);
@@ -210,6 +218,11 @@ main {
     grid-template-columns: repeat(3, 55px);
     row-gap: 9px;
     margin: 0 auto;
+}
+
+.skills img {
+    width: 45px;
+    height: 45px;
 }
 
 /* Footer */
@@ -332,9 +345,15 @@ footer {
         width: 90%;
     }
 
+    .skills img {
+        width: 35px;
+        height: 35px;
+    }
+
     .title::before {
-        left: -50px;
+        left: -40px;
         top: -30px;
         transform: scale(0.4);
+        opacity: 0.2;
     }
 }
