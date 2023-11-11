@@ -29,10 +29,10 @@ body {
 body::after {
     content: url("../img/abstract-1186.png");
     position: absolute;
-    right: -80px;
+    right: -99px;
     bottom: -99px;
     filter: invert(1);
-    transform: scale(0.5);
+    transform: scale(0.5) rotate(-90deg);
     opacity: 0.1;
 }
 
@@ -201,7 +201,7 @@ main {
 }
 
 .skills p {
-    margin-left: -120px;
+    margin-left: -130px;
     margin-bottom: -20px;
     opacity: 0.8;
 }
@@ -330,7 +330,7 @@ footer {
     }
 
     .skills p {
-        margin-left: -60px;
+        margin-left: -65px;
     }
 
     .skills hr {
