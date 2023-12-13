@@ -34,6 +34,7 @@ body::after {
    filter: invert(1);
    transform: scale(0.5) rotate(-90deg);
    opacity: 0.1;
+   z-index: -1;
 }
 
 main {
@@ -64,7 +65,6 @@ main {
    flex-direction: column;
    gap: 15px;
    font-family: "inter";
-   cursor: default;
 }
 
 .title div:nth-child(1),
@@ -161,6 +161,7 @@ main {
    height: 10px;
    filter: invert(1);
    opacity: 0.1;
+   z-index: -1;
 }
 
 .svg {
@@ -275,6 +276,10 @@ footer {
 .tell span {
    color: var(--primary-color);
 }
+.tell a{
+   width: min-content;
+}
+
 
 .tell a:hover {
    color: var(--primary-color);
