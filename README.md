@@ -1,11 +1,11 @@
-<h1 align="center">Hi 👋, I'm Ali</h1>
-<h3 align="center">A passionate Frontend developer</h3>
+<h1 align="left">Hi 👋, I'm Ali</h1>
+<h3 align="left">A passionate Frontend developer</h3>
 
 <br>
 
 <h2 align="left">💫 About Me:</h2>
 
--  🔭 I’m currently working on **self grow**
+-  🔭 I’m currently working on **Self grow**
 
 -  🌱 I’m currently learning **NextJS**
 
