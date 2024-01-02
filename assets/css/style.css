@@ -208,6 +208,7 @@ main {
    margin-left: -130px;
    margin-bottom: -20px;
    opacity: 0.8;
+   width: fit-content;
 }
 .skills hr {
    margin: 15px auto;
@@ -334,7 +335,7 @@ footer {
    .loading-skills {
       -ms-grid-columns: (40px) [3];
       grid-template-columns: repeat(3, 40px);
-      row-gap: 0;
+      row-gap: 5px;
    }
 
    .skills p {
@@ -342,15 +343,12 @@ footer {
    }
 
    .skills hr {
-      margin: 9px auto;
+      margin: 15px auto;
+      width: 90%;
    }
 
    .svg {
       width: 30px;
-   }
-
-   .skills hr {
-      width: 90%;
    }
 
    .skills img {
