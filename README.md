@@ -1,13 +1,13 @@
 <h1 align="left">Hi 👋, I'm Ali</h1>
 <h3 align="left">A passionate Frontend developer</h3>
 
-<br>
+<br />
 
 <h2 align="left">💫 About Me:</h2>
 
 -  🔭 I’m currently working on **Self grow**
 
--  🌱 I’m currently learning **NodeJS**
+-  🌱 I’m currently learning **NextJS**
 
 -  👯 I’m looking to collaborate on **Front-end**
 
