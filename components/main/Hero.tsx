@@ -1,4 +1,4 @@
-import HeroContent from "../heroContent/HeroContent";
+import HeroContent from "../sub/HeroContent";
 
 function Hero() {
    return (
