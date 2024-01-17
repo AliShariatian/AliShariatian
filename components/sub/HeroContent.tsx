@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { slideInFromLeft, slideInFromRight, slideInFromTop } from "@/utils/motion";
 import { SparklesIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
+import ShimmerBtn from "../shimmerButton/ShimmerBtn";
 
 function HeroContent() {
    return (
@@ -23,8 +24,8 @@ function HeroContent() {
             <motion.p variants={slideInFromLeft(0.3)} className="text-lg text-gray-400 my-5 max-w-[600px]">
                I'm a Front-end Developer with experience in Website development. Check out my projects and skills.
             </motion.p>
-            <motion.a href="#skills" variants={slideInFromLeft(0.5)} className="py-2 button-primary text-white text-center cursor-pointer rounded-lg max-w-[200px]">
-               Learn More!
+            <motion.a href="#skills" variants={slideInFromLeft(0.5)} className="max-w-[200px]">
+               <ShimmerBtn text="Learn More!" />
             </motion.a>
          </div>
          <motion.div variants={slideInFromRight(0.3)} className="size-full flex justify-center items-center">

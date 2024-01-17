@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import ShimmerBtn from "../shimmerButton/ShimmerBtn";
 
 interface Props {
    src: string;
@@ -16,9 +17,9 @@ function ProjectCard({ src, link, title, description }: Props) {
          </Link>
          <div className="relative p-4 flex flex-col gap-3">
             <h2 className="text-2xl font-semibold text-white">{title}</h2>
-            <p className="text-gray-300">{description}</p>
-            <Link href={link} target="_blank" className="w-fit mt-3 py-2 px-14 button-primary text-white text-center cursor-pointer rounded-lg">
-               Visit Live
+            <p className="text-gray-300 mb-2">{description}</p>
+            <Link href={link} target="_blank">
+               <ShimmerBtn text="Visit Live" />
             </Link>
          </div>
       </div>
