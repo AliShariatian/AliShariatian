@@ -1,6 +1,7 @@
 import Hero from "@/components/main/Hero";
-import Projects from "@/components/main/Projects";
 import Skills from "@/components/main/Skills";
+import Projects from "@/components/main/Projects";
+import Footer from "@/components/main/Footer";
 
 function HomePage() {
    return (
@@ -9,6 +10,7 @@ function HomePage() {
             <Hero />
             <Skills />
             <Projects />
+            <Footer />
          </div>
       </main>
    );

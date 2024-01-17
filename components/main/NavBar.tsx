@@ -1,5 +1,6 @@
 import { Nunito } from "next/font/google";
 import Social from "./Social";
+import { TopNavBarSocials } from "@/constants";
 const fontNunito = Nunito({ subsets: ["latin"] });
 
 function NavBar() {
@@ -23,7 +24,7 @@ function NavBar() {
                </div>
             </div>
             <div className="flex gap-5">
-               <Social />
+               <Social socials={TopNavBarSocials} />
             </div>
          </div>
       </nav>

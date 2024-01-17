@@ -1,4 +1,4 @@
-export const Socials = [
+export const TopNavBarSocials = [
    {
       name: "Linkedin",
       src: "/img/linkedin.svg",
@@ -13,6 +13,34 @@ export const Socials = [
       name: "Github",
       src: "/img/github.svg",
       link: "https://github.com/AliShariatian",
+   },
+];
+
+export const FooterNavBarSocials = [
+   {
+      name: "Linkedin",
+      src: "/img/linkedin.svg",
+      link: "https://linkedin.com/in/AliShariatian",
+   },
+   {
+      name: "X",
+      src: "/img/x.svg",
+      link: "https://twitter.com/Ali_Shariatian",
+   },
+   {
+      name: "Github",
+      src: "/img/github.svg",
+      link: "https://github.com/AliShariatian",
+   },
+   {
+      name: "CodePen",
+      src: "/img/codepen.svg",
+      link: "https://codepen.io/AliShariatian",
+   },
+   {
+      name: "WakaTime",
+      src: "/img/wakatime.svg",
+      link: "https://wakatime.com/@alishariatian",
    },
 ];
 
