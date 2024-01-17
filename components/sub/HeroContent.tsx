@@ -11,7 +11,7 @@ function HeroContent() {
          <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
             <motion.div variants={slideInFromTop} className="welcome-box p-3 border border-[#7042f88b] opacity-90">
                <SparklesIcon className="text-[#b49bff] mr-[10px] size-5" />
-               <h1 className="welcome-text text-[13px]">Front-end Developer</h1>
+               <h2 className="welcome-text text-[13px]">Front-end Developer</h2>
             </motion.div>
 
             <motion.p variants={slideInFromLeft(0.2)} className="flex flex-col mt-2 text-6xl font-bold text-white max-w-[600px] size-auto">
