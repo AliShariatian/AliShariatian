@@ -1,5 +1,13 @@
+import Hero from "@/components/main/Hero";
+
 function HomePage() {
-   return <div className="text-xl text-rose-600">Hello</div>;
+   return (
+      <main className="h-full w-full">
+         <div className="flex flex-col gap-20 h-[850px] ">
+            <Hero />
+         </div>
+      </main>
+   );
 }
 
 export default HomePage;
