@@ -14,20 +14,20 @@ function HeroContent() {
                <h1 className="welcome-text text-[13px]">Front-end Developer</h1>
             </motion.div>
 
-            <motion.p variants={slideInFromLeft(0.5)} className="flex flex-col mt-2 text-6xl font-bold text-white max-w-[600px] size-auto">
+            <motion.p variants={slideInFromLeft(0.2)} className="flex flex-col mt-2 text-6xl font-bold text-white max-w-[600px] size-auto">
                <span>
                   Providing<span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500"> the best </span>project experience
                </span>
             </motion.p>
 
-            <motion.p variants={slideInFromLeft(0.8)} className="text-lg text-gray-400 my-5 max-w-[600px]">
+            <motion.p variants={slideInFromLeft(0.3)} className="text-lg text-gray-400 my-5 max-w-[600px]">
                I'm a Front-end Developer with experience in Website development. Check out my projects and skills.
             </motion.p>
-            <motion.a variants={slideInFromLeft(1)} className="py-2 button-primary text-white text-center cursor-pointer rounded-lg max-w-[200px]">
+            <motion.a variants={slideInFromLeft(0.5)} className="py-2 button-primary text-white text-center cursor-pointer rounded-lg max-w-[200px]">
                Learn More!
             </motion.a>
          </div>
-         <motion.div variants={slideInFromRight(0.8)} className="size-full flex justify-center items-center">
+         <motion.div variants={slideInFromRight(0.3)} className="size-full flex justify-center items-center">
             <Image src="/img/mainIconsdark.svg" alt="web-develope-tools" width={650} height={650} />
          </motion.div>
       </motion.div>

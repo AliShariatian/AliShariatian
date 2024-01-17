@@ -25,7 +25,7 @@ function SkillDataProvider({ src, width, height, title, index }: Props) {
    const animationDelay = 0.3;
 
    return (
-      <motion.div ref={ref} initial="hidden" variants={imageVariants} animate={inView ? "visible" : "hidden"} custom={index} transition={{ delay: index * animationDelay }} className="icon-scale">
+      <motion.div ref={ref} initial="hidden" variants={imageVariants} animate={inView ? "visible" : "hidden"} custom={index} transition={{ delay: index * animationDelay }}>
          <Image src={src} width={width} height={height} alt="front-end skill" title={title} />
       </motion.div>
    );

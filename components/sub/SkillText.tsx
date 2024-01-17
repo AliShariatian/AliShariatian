@@ -6,18 +6,18 @@ import { SparklesIcon } from "@heroicons/react/24/solid";
 
 function SkillText() {
    return (
-      <div className="w-full h-auto flex flex-col items-center justify-center">
+      <motion.div initial="hidden" animate="visible" className="w-full h-auto flex flex-col items-center justify-center">
          <motion.div variants={slideInFromTop} className="welcome-box p-3 border border-[#7042f88b] opacity-90">
             <SparklesIcon className="text-[#b49bff] mr-[10px] size-5" />
-            <h3 className="welcome-text text-[13px]">Think better with Next JS 14</h3>
+            <h3 className="welcome-text text-[13px]">Think better with NextJS 14</h3>
          </motion.div>
-         <motion.div variants={slideInFromLeft(0.5)} className="text-3xl text-white font-medium mt-[10px] mb-[15px] text-center">
+         <motion.p variants={slideInFromLeft(0.5)} className="text-3xl text-white font-medium mt-[10px] mb-[15px] text-center">
             Making apps with modern technologies
-         </motion.div>
-         <motion.div variants={slideInFromRight(0.5)} className="cursive text-xl text-gray-200 mb-10 mt-[10px] text-center">
+         </motion.p>
+         <motion.p variants={slideInFromRight(0.5)} className="cursive text-xl text-gray-200 mb-10 mt-[10px] text-center">
             Never miss a task deadline or idea
-         </motion.div>
-      </div>
+         </motion.p>
+      </motion.div>
    );
 }
 
