@@ -4,9 +4,9 @@ const fontNunito = Nunito({ subsets: ["latin"] });
 
 function NavBar() {
    return (
-      <nav className="w-full h-16 fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-2 md:px-32">
+      <nav className="w-full h-16 fixed top-0 shadow-sm shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-2 md:px-32">
          <div className="size-full flex items-center justify-between m-auto px-3">
-            <a href="#about-me" className={`${fontNunito.className} hidden md:block text-md md:text-xl font-extrabold ml-2 text-white hover-scale`}>
+            <a href="#about-me" className={`${fontNunito.className} hidden md:block text-md md:text-xl font-extrabold ml-2 text-white`}>
                Ali Shariatian
             </a>
             <div className="flex items-center justify-between h-full">

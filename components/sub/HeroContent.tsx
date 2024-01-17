@@ -23,7 +23,7 @@ function HeroContent() {
             <motion.p variants={slideInFromLeft(0.3)} className="text-lg text-gray-400 my-5 max-w-[600px]">
                I'm a Front-end Developer with experience in Website development. Check out my projects and skills.
             </motion.p>
-            <motion.a variants={slideInFromLeft(0.5)} className="py-2 button-primary text-white text-center cursor-pointer rounded-lg max-w-[200px]">
+            <motion.a href="#skills" variants={slideInFromLeft(0.5)} className="py-2 button-primary text-white text-center cursor-pointer rounded-lg max-w-[200px]">
                Learn More!
             </motion.a>
          </div>
