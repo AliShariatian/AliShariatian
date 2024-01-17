@@ -4,7 +4,7 @@ import SkillText from "../sub/SkillText";
 
 function Skills() {
    return (
-      <section id="skills" className="flex flex-col items-center justify-center gap-3 h-full relative overflow-hidden py-20" style={{ transform: "scale(0.9)" }}>
+      <section id="skills" className="flex flex-col items-center justify-center gap-3 h-full relative overflow-hidden py-20 z-20" style={{ transform: "scale(0.9)" }}>
          <SkillText />
          {/* skills */}
          <div className="flex items-center justify-around flex-wrap mt-4 gap-5">
@@ -18,8 +18,8 @@ function Skills() {
             ))}
          </div>
 
-         <div className="size-full absolute">
-            <div className="size-full -z-10 opacity-30 absolute flex items-center justify-center bg-cover">
+         <div className="size-full absolute -z-10">
+            <div className="size-full opacity-30 absolute flex items-center justify-center bg-cover">
                <video className="w-full h-auto" preload="false" playsInline loop muted autoPlay src="/video/cards-video.webm" />
             </div>
          </div>
