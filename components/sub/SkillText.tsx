@@ -7,9 +7,9 @@ import { SparklesIcon } from "@heroicons/react/24/solid";
 function SkillText() {
    return (
       <motion.div initial="hidden" animate="visible" className="w-full h-auto flex flex-col items-center justify-center">
-         <motion.div variants={slideInFromTop} className="welcome-box p-3 border border-[#7042f88b] opacity-90">
+         <motion.div variants={slideInFromTop} className="welcome-box text-lg font-bold p-3 border border-[#7042f88b] opacity-90">
             <SparklesIcon className="text-[#b49bff] mr-[10px] size-5" />
-            <h3 className="welcome-text text-[13px]">Think better with NextJS 14</h3>
+            <h3 className="welcome-text text-[13px]">Think better with NextJS</h3>
          </motion.div>
          <motion.p variants={slideInFromLeft(0.5)} className="text-3xl text-white font-medium mt-[10px] mb-[15px] text-center">
             Making apps with modern technologies
