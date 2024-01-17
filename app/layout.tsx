@@ -17,7 +17,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
    return (
       <html lang="en">
          <body className={`${fontNunito.className} bg-[#030014] overflow-y-scroll overflow-x-hidden`}>
-            {/* <StarsCanvas /> */}
+            <StarsCanvas />
             <NavBar />
             {children}
          </body>
