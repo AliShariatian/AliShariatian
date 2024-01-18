@@ -28,7 +28,7 @@ function StarBackground(props: any) {
 }
 
 const StarsCanvas = () => (
-   <div className="w-full h-auto fixed inset-0 z-20">
+   <div className="hidden md:block w-full h-auto fixed inset-0 z-20">
       <Canvas camera={{ position: [0, 0, 1] }}>
          <Suspense fallback={null}>
             <StarBackground />

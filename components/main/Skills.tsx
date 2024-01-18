@@ -18,7 +18,7 @@ function Skills() {
             ))}
          </div>
 
-         <div className="size-full absolute -z-10">
+         <div className="hidden md:block size-full absolute -z-10">
             <div className="size-full opacity-30 absolute flex items-center justify-center bg-cover">
                <video className="w-full h-auto" preload="false" playsInline loop muted autoPlay src="/video/cards-video.webm" />
             </div>
