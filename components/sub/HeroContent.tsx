@@ -7,9 +7,7 @@ import Image from "next/image";
 import ShimmerBtn from "../shimmerButton/ShimmerBtn";
 import { Inter } from "next/font/google";
 
-
 const fontInter = Inter({ subsets: ["latin"] });
-
 
 function HeroContent() {
    return (
@@ -33,7 +31,7 @@ function HeroContent() {
                <ShimmerBtn text="Learn More!" />
             </motion.a>
          </div>
-         <motion.div variants={slideInFromRight(0.3)} className="size-full hidden md:flex justify-center items-center">
+         <motion.div variants={slideInFromRight(0.3)} className=" hidden md:flex md:size-64 lg:size-full justify-center items-center">
             <Image src="/img/mainIconsdark.svg" alt="web-develope-tools" width={650} height={650} />
          </motion.div>
       </motion.div>
