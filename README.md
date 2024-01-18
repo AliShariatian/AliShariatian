@@ -14,6 +14,8 @@
 -  💬 Ask me about **Web and Front-end**
 
 -  📫 How to reach me **Shariatian92@gmail.com**
+  
+-  👉 My Website [Shariatian.ir](https://shariatian.ir)
 
 <br>
 
@@ -28,17 +30,17 @@
 
 <h2 align="left">💻 Skills:</h2>
 <p align="left">
-<img src="./assets/img/html.svg" alt="html5" width="45" height="45"/>
-<img src="./assets/img/css.svg" alt="css3" width="45" height="45"/>
-<img src="./assets/img/js.svg" alt="javascript" width="45" height="45"/>
+<img src="./public/img/html.svg" alt="html5" width="45" height="45"/>
+<img src="./public/img/css.svg" alt="css3" width="45" height="45"/>
+<img src="./public/img/js.svg" alt="javascript" width="45" height="45"/>
 </p>
 <p align="left">
-<img src="./assets/img/nextjs.svg" alt="next" width="45" height="45"/>
-<img src="./assets/img/reactjs.svg" alt="react" width="45" height="45"/>
-<img src="./assets/img/redux.svg" alt="redux" width="45" height="45"/>
+<img src="./public/img/nextjs.svg" alt="next" width="45" height="45"/>
+<img src="./public/img/reactjs.svg" alt="react" width="45" height="45"/>
+<img src="./public/img/redux.svg" alt="redux" width="45" height="45"/>
 </p>
 <p align="left">
-<img src="./assets/img/tailwind.svg" alt="tailwind" width="45" height="40"/>
-<img src="./assets/img/git.svg" alt="git" width="45" height="45"/>
-<img src="./assets/img/figma.svg" alt="figma" width="45" height="45"/>
+<img src="./public/img/tailwind.svg" alt="tailwind" width="45" height="40"/>
+<img src="./public/img/git.svg" alt="git" width="45" height="45"/>
+<img src="./public/img/figma.svg" alt="figma" width="45" height="45"/>
 </p>
