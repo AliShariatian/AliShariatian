@@ -43,6 +43,5 @@
 <p align="left">
 <img src="./public/img/tailwind.svg" alt="tailwind" width="45" height="40"/>
 <img src="./public/img/git.svg" alt="git" width="45" height="45"/>
-<img src="./public/img/framer-motion.svg" alt="framer-motion" width="40" height="40"/>
-<img src="./public/img/figma.svg" alt="figma" style="margin:0 5px" width="45" height="45"/>
+<img src="./public/img/figma.svg" alt="figma" width="45" height="45"/>
 </p>
