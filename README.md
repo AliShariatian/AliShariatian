@@ -7,7 +7,7 @@
 
 -  🔭 I’m currently working on **Self Grow**
 
--  🌱 I’m currently learning **VueJS**
+-  🌱 I’m currently learning **NodeJS**
 
 -  👯 I’m looking to collaborate on **Front-end**
 
@@ -22,7 +22,7 @@
 <h2 align="left">🌐 Socials:</h2>
 <p align="left">
 <a href="https://linkedin.com/in/alishariatian" target="_blank"><img align="center" src="./public/img/linkedin.svg" alt="ali shariatian linkedin" height="30" width="40" /></a>
-<a href="https://twitter.com/ali_shariatian" target="_blank"><img align="center" src="./public/img/x.svg" alt="ali shariatian x" height="30" width="40" /></a>
+<!-- <a href="https://twitter.com/ali_shariatian" target="_blank"><img align="center" src="./public/img/x.svg" alt="ali shariatian x" height="30" width="40" /></a> -->
 </p>
 
 <br>
